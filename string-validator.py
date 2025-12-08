@@ -11,7 +11,6 @@ if __name__ == '__main__':
     # for f in checks:
     #     print(any(f(ch) for ch in s))
     
-    
      #using generator and  lazy evaluation
     print (any(ch.isalnum() for ch in s))
     print (any(ch.isalpha() for ch in s))
