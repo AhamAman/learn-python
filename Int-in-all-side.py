@@ -5,3 +5,4 @@ if __name__ == "__main__":
     d = int(input().strip())
     
     print(pow(a, b) + pow(c, d))
+    
