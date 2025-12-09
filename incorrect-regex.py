@@ -1,0 +1,13 @@
+import re
+
+if __name__ == "__main__":
+    t = input().strip()
+    t = int(t)
+    
+    for _ in range(t):
+        try:
+            re.compile(input().strip())
+            res = True
+        except BaseException:
+            res = False
+        print(res)
