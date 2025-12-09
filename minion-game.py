@@ -9,7 +9,7 @@
 #             score_kevin += len(string) - index
 #         else:
 #             score_stuart += len(string) - index
-            
+
 #     if score_kevin > score_stuart:
 #         print("Kevin {}".format(score_kevin))
 #     elif score_kevin < score_stuart:
